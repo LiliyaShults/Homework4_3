@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-01-06 23:40:34,692 INFO TestWithLogin [main] Драйвер поднят
 2024-01-06 23:41:08,140 INFO TestWithLogin [main] Открыта страница отус
 2024-01-06 23:42:55,017 INFO TestWithLogin [main] Драйвер поднят
@@ -77,3 +78,41 @@
 2024-01-10 01:08:05,057 INFO TestWithLogin [main] Вход осуществлен. Имя пользователя найдено
 2024-01-10 01:08:05,105 INFO TestWithLogin [main] [auth_token_expires=1799446083; expires=Thu, 13 Feb 2025 01:08:03 MSK; path=/; domain=.otus.ru; sameSite=Lax, advcake_track_id=fb94f4f8-83f0-2776-8fd1-d4dec62ec2ab; expires=Fri, 09 Feb 2024 01:08:00 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, oid=601afff6ad6e55da827becd7b6ed3924; expires=Thu, 13 Feb 2025 01:08:03 MSK; path=/; domain=.otus.ru; sameSite=Lax, sessionid=bq8x1rb184lgpe09u95o4yddmzn0hgxi; expires=Tue, 09 Apr 2024 01:08:02 MSK; path=/; domain=otus.ru;secure;; sameSite=Lax, _ym_d=1704838081; expires=Thu, 09 Jan 2025 01:08:00 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _tt_enable_cookie=1; expires=Mon, 03 Feb 2025 01:08:01 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_visorc=w; expires=Wed, 10 Jan 2024 01:38:01 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, utm=utm_source%3Dtypein%26utm_medium%3Ddirect; expires=Thu, 13 Feb 2025 01:08:03 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_uid=170483808189730342; expires=Thu, 09 Jan 2025 01:08:00 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ym_isad=2; expires=Wed, 10 Jan 2024 09:08:00 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ga=GA1.1.1134232229.1704838081; expires=Thu, 13 Feb 2025 01:08:00 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ga_N2GWLW9R5Z=GS1.1.1704838080.1.0.1704838080.60.0.0; expires=Thu, 13 Feb 2025 01:08:00 MSK; path=/; domain=.otus.ru; sameSite=Lax, auth_token=Mm6ZWd2QXUQEoF2VRMAGUQ; expires=Thu, 13 Feb 2025 01:08:03 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ttp=0QiLXCgVQh4cVFmgJpRURxxhkZo; expires=Mon, 03 Feb 2025 01:08:01 MSK; path=/; domain=.otus.ru; sameSite=Lax, advcake_session_id=b9042bf2-cdde-0b77-e646-5c4841fd9d98; expires=Fri, 09 Feb 2024 01:08:00 MSK; path=/; domain=.otus.ru;secure;; sameSite=None]
 2024-01-10 01:08:05,111 INFO TestWithLogin [main] Драйвер закрыт
+=======
+2024-01-06 23:40:34,692 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:41:08,140 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:42:55,017 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:43:00,148 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:43:46,787 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:43:51,656 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:44:17,031 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:44:22,346 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:46:32,018 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:46:35,603 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:47:01,645 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:47:06,126 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:48:43,501 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:48:44,042 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:49:14,676 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:49:20,488 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:53:09,470 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:53:13,568 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:57:20,305 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:57:24,220 INFO TestWithLogin [main] Открыта страница отус
+2024-01-06 23:58:10,088 INFO TestWithLogin [main] Драйвер поднят
+2024-01-06 23:58:14,557 INFO TestWithLogin [main] Открыта страница отус
+2024-01-07 08:45:36,080 INFO TestWithLogin [main] Драйвер поднят
+2024-01-07 08:45:38,779 INFO TestWithLogin [main] Открыта страница отус
+2024-01-07 08:49:48,096 INFO TestWithLogin [main] Драйвер поднят
+2024-01-07 08:49:48,493 INFO TestWithLogin [main] Открыта страница отус
+2024-01-07 11:34:40,012 INFO TestWithLogin [main] Драйвер поднят
+2024-01-07 11:34:44,021 INFO TestWithLogin [main] Открыта страница отус
+2024-01-07 11:34:49,823 INFO TestWithLogin [main] Вход не осуществлен. Имя пользователя не найдено.
+2024-01-08 00:13:50,669 INFO TestWithLogin [main] Драйвер поднят
+2024-01-08 00:13:58,874 INFO TestWithLogin [main] Открыта страница отус
+2024-01-08 00:14:04,565 INFO TestWithLogin [main] Вход не осуществлен. Имя пользователя не найдено.
+2024-01-08 00:18:43,987 INFO TestWithLogin [main] Драйвер поднят
+2024-01-08 00:18:48,779 INFO TestWithLogin [main] Открыта страница отус
+2024-01-08 00:18:54,521 INFO TestWithLogin [main] Вход не осуществлен. Имя пользователя не найдено.
+2024-01-08 00:18:54,537 INFO TestWithLogin [main] [_ym_uid=170466232792462398; expires=вт, 07 янв. 2025 12:18:47 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, advcake_track_id=1c857c13-269d-2736-c4bd-0557a7de39c8; expires=ср, 07 февр. 2024 12:18:47 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ym_isad=2; expires=пн, 08 янв. 2024 08:18:47 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ga=GA1.1.1840018256.1704662327; expires=вт, 11 февр. 2025 12:18:47 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ga_N2GWLW9R5Z=GS1.1.1704662327.1.0.1704662329.58.0.0; expires=вт, 11 февр. 2025 12:18:50 MSK; path=/; domain=.otus.ru; sameSite=Lax, oid=934fb02fa21f9a8bc318e88880870f51; expires=вт, 11 февр. 2025 12:18:49 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_d=1704662327; expires=вт, 07 янв. 2025 12:18:47 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, _ttp=ttKrPHPsK6APmz-Lkr_7MFOM111; expires=сб, 01 февр. 2025 12:18:47 MSK; path=/; domain=.otus.ru; sameSite=Lax, _tt_enable_cookie=1; expires=сб, 01 февр. 2025 12:18:47 MSK; path=/; domain=.otus.ru; sameSite=Lax, _ym_visorc=w; expires=пн, 08 янв. 2024 12:48:48 MSK; path=/; domain=.otus.ru;secure;; sameSite=None, utm=utm_source%3Dtypein%26utm_medium%3Ddirect; expires=вт, 11 февр. 2025 12:18:49 MSK; path=/; domain=.otus.ru; sameSite=Lax, advcake_session_id=74ce1280-15eb-72ec-148e-886cb74d2244; expires=ср, 07 февр. 2024 12:18:47 MSK; path=/; domain=.otus.ru;secure;; sameSite=None]
+>>>>>>> aaf1b959861d315a64fb4192f97cdc59631a8736
