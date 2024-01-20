@@ -7,17 +7,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.Set;
 
+
 public class TestWithLogin {
-    WebDriver driver;
+    private WebDriver driver;
     private final Logger logger = LogManager.getLogger(TestWithLogin.class);
 
-    @Test
-    public void Log(){
-        logger.info("this is info");
-    }
 
     @BeforeAll
     public static void driverSetup() {
@@ -26,8 +24,9 @@ public class TestWithLogin {
 
     @BeforeEach
     public void driverStart() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized");
+        driver = new ChromeDriver(options);
         logger.info("Драйвер поднят");
     }
 
@@ -43,11 +42,12 @@ public class TestWithLogin {
         driver.get(" https://otus.ru");
         logger.info("Открыта страница отус");
 
-        WebElement elEnter = driver.findElement(By.xpath("//*[@id=\"__next\"]//section/div[1]/button"));
+        WebElement elEnter = driver.findElement(By.xpath("//./*[text() = 'Войти']"));
         elEnter.click();
-
         WebElement elFocus = driver.findElement(By.xpath("//input[@name]/.."));
         elFocus.click();
+        //WebElement elFocus = driver.findElement(By.xpath("//input[@name='email']"));
+        //elFocus.click();
         WebElement elEmail = driver.findElement(By.xpath("//input[@name]"));
         elEmail.sendKeys("ineuxlm063@tempemail.ru");
 
@@ -57,21 +57,16 @@ public class TestWithLogin {
         elPassword.sendKeys("Qwerty123456!");
         elEnter = driver.findElement(By.xpath("//button[./*[text() = 'Войти']]"));
         elEnter.click();
-        try {
-            Thread.sleep(3000);
-        }
-        catch (Exception ignored){}
-
 
         String present;
         try {
-            driver.findElement(By.xpath("//*[@id=\"__next\"]/div[1]/div[1]/div/section/div[2]/span"));
-            present ="Вход осуществлен. Имя пользователя найдено";
-            logger.info("Вход осуществлен. Имя пользователя найдено");
+            driver.findElement(By.xpath("//./*[text() = 'Войти']"));
+            present ="Вход осуществлен. Кнопка Выйти найдена";
+            logger.info("Вход осуществлен. Кнопка Выйти найдена");
 
         } catch (NoSuchElementException e) {
-            present = "Вход не осуществлен. Имя пользователя не найдено.";
-            logger.info("Вход не осуществлен. Имя пользователя не найдено.");
+            present = "Вход не осуществлен. Кнопка Выйти не найдена.";
+            logger.info("Вход не осуществлен. Кнопка Выйти не найдена.");
         }
         System.out.println(present);
         Set<Cookie>cookies = driver.manage().getCookies();
