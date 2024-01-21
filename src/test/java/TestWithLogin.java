@@ -8,7 +8,10 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.Set;
 
 
@@ -57,6 +60,8 @@ public class TestWithLogin {
         elPassword.sendKeys("Qwerty123456!");
         elEnter = driver.findElement(By.xpath("//button[./*[text() = 'Войти']]"));
         elEnter.click();
+        WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//./*[text() = 'Войти']")));
 
         String present;
         try {
